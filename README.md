@@ -1,5 +1,5 @@
 # Smalltalk
-##History
+## History
 - Smalltalk was developed at Xerox Palo Alto Research center in 1980, and is actually Smalltalk-80, although there are many variants of the language
 - Earlier versions were passed around for peer review to Hewlett Packard, Apple, UC Berkeley among others
 - Squeak is an implementation of Smalltalk-80 that’s open source, VisualWorks is another
