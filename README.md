@@ -18,4 +18,9 @@ Squeak has the most active community around it, since it is open source
 ## Syntax of Small Talk
 - Characters are reprsented with a '$' before them such as `$A`
 - String are represented with single quotes such as `'foo bar'`
+- Symbols are indicated by `#`
+- Arrays can be declared with '()' or '[]' 
+  - '()' declares a typed array for example an int array would be declared as `#(1 2 3 4)`
+  - '[]' declares a byte array such as `[1 2 3 4]`
+ 
 
