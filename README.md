@@ -29,6 +29,9 @@ Squeak has the most active community around it, since it is open source
   - Messages have two aspects the reciever and selector
   - In the following code 'var' is the reciever and 'func' is the selector
   - `var func`
-  - You can pass arguements for the selector by using assignment such as passing `$A` into a selector that finds an instance of
+  - You can pass arguements for the selector by using assignment such as passing `$A` into a selector that finds the index of a     char
   - `Answer indexOf: $A`
+  - This is helpful for making code less ambigious such as the constructor `Circle(radius,center)` in other languages would be written as `Circle(5,10)` where as in Small Talk you would write it as `Circle radius: 5 center: 10`
+ - **Expressions** build upon messages and allows the inclusion of multiple messages in a single line
+ 
 
