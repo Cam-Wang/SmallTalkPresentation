@@ -38,6 +38,7 @@ Squeak has the most active community around it, since it is open source
     - 3 receives the message `plusOne` and returns 4
     - 2 recieves `+` 4 and returns 6
     - 6 recieves `inRange: 5` `and: 10` and will return `true`
+  - Expressions are proccessed from left to right and no message holds precedence over others
  
  
 
