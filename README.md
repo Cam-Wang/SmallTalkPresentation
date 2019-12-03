@@ -25,5 +25,10 @@ Squeak has the most active community around it, since it is open source
 - **Variables** are declared by '| |' and are asssigned with ':='
   - `| var |`
   - ` var := 'foobar'`
- 
+- **Messages** are the most important aspect of coding in Small Talk where every object to even control structures use messages
+  - Messages have two aspects the reciever and selector
+  - In the following code 'var' is the reciever and 'func' is the selector
+  - `var func`
+  - You can pass arguements for the selector by using assignment such as passing `$A` into a selector that finds an instance of
+  - `Answer indexOf: $A`
 
