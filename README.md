@@ -26,12 +26,18 @@ Squeak has the most active community around it, since it is open source
   - `| var |`
   - ` var := 'foobar'`
 - **Messages** are the most important aspect of coding in Small Talk where every object to even control structures use messages
-  - Messages have two aspects the reciever and selector
+  - Messages have two aspects the receiver and selector
   - In the following code 'var' is the reciever and 'func' is the selector
   - `var func`
   - You can pass arguements for the selector by using assignment such as passing `$A` into a selector that finds the index of a     char
   - `Answer indexOf: $A`
   - This is helpful for making code less ambigious such as the constructor `Circle(radius,center)` in other languages would be written as `Circle(5,10)` where as in Small Talk you would write it as `Circle radius: 5 center: 10`
  - **Expressions** build upon messages and allows the inclusion of multiple messages in a single line
+  - For example the line `1 plusOne + 3 plusOne inRange: 5 and: 10` reads as 3 seperate messages and runs as follows
+    - First 1 receives the message `plusOne` and returns 2
+    - 3 receives the message `plusOne` and returns 4
+    - 2 recieves `+` 4 and returns 6
+    - 6 recieves `inRange: 5` `and: 10` and will return `true`
+ 
  
 
