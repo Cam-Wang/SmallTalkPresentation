@@ -16,11 +16,14 @@ Squeak has the most active community around it, since it is open source
 - The language can do the same amount of work as other languages, while using about a third of the code
 - With less code to write, test, and maintain, there is a lower cost to develop, along with the fact that is closer to spoken sentences than dense than other low level languages, means more, less trained people can understand it
 ## Syntax of Small Talk
-- Characters are reprsented with a '$' before them such as `$A`
-- String are represented with single quotes such as `'foo bar'`
-- Symbols are indicated by `#`
-- Arrays can be declared with '()' or '[]' 
+- **Characters** are reprsented with a '$' before them such as `$A`
+- **String** are represented with single quotes such as `'foo bar'`
+- **Symbols** are indicated by `#`
+- **Arrays** can be declared with '()' or '[]' 
   - '()' declares a typed array for example an int array would be declared as `#(1 2 3 4)`
-  - '[]' declares a byte array such as `[1 2 3 4]`
+  - '[]' declares a byte array such as `#[1 2 3 4]`
+- **Variables** are declared by '| |' and are asssigned with ':='
+  - `| var |`
+  - ` var := 'foobar'`
  
 
