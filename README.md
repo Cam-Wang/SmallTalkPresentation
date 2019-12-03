@@ -16,6 +16,6 @@ Squeak has the most active community around it, since it is open source
 - The language can do the same amount of work as other languages, while using about a third of the code
 - With less code to write, test, and maintain, there is a lower cost to develop, along with the fact that is closer to spoken sentences than dense than other low level languages, means more, less trained people can understand it
 ## Syntax of Small Talk
-- Characters are reprsented with a '$' before them such as '$A'
-- String are represented with single quotes such as ''foo bar''
+- Characters are reprsented with a '$' before them such as `$A`
+- String are represented with single quotes such as `'foo bar'`
 
